@@ -26,7 +26,7 @@ bot.on('message', (msg) => {
         bot.sendMessage(chatId, 'Введите ваше имя', {
             reply_markup: {
                 inline_keyboard: [[
-                    { text: 'Ввести имя', web_app: { url: 'http://yamarket.mooo.com:3000' } }
+                    { text: 'Ввести имя', web_app: { url: 'https://yamarket.mooo.com' } }
                 ]]
             }
         });
